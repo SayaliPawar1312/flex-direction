@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>flex-direction</title>
+
+    <style>
+        .cards-container{
+            background-color: bisque;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: end;
+            flex-wrap: wrap;
+            height: 400px;
+        }
+        .product-card{
+    height: 250px;
+    width:300px;
+    border-radius: 10px;
+    border:3px solid black;
+    margin: 5px;
+    background-color: white;
+ }
+
+    .product-img{
+    width:300px;
+   height: 200px;
+    border-radius: 10px;
+  
+  }
+    </style>
+</head>
+<body>
+    <div class="cards-container">
+<div class="product-card">
+<img src="./img/nature1.jpeg" class="product-img"/>
+</div>
+
+<div class="product-card">
+    <img src="./img/nature2.jpeg" class="product-img"/>
+    </div>
+
+    <div class="product-card">
+        <img src="./img/nature3.jpeg" class="product-img"/>
+        </div>
+
+        <div class="product-card">
+            <img src="./img/nature4.jpeg" class="product-img"/>
+            </div>
+        </div>
+</body>
+</html>
